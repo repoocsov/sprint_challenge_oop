@@ -1,0 +1,19 @@
+Part 7
+-----------------------------------
+- What, in your opinion, is an important part of code reviews? That is, what is
+  something you pay attention to when you review code, and that you appreciate
+  when others do the same for your code?
+- We have an awful lot of computers here, and it gets pretty confusing with
+  slightly different things running on all of them. How could containers help us
+  improve this situation?
+-----------------------------------
+
+Code reviews should take the stance of a person very ignorant of what you're doing.
+Code should be written so that an ignorant person could come in and be brought up to speed very quickly.
+I appreciate code that I can understand quickly. I get frustrated when I can't understand whats going on. Each line
+of code shouldn't require a google search. More documentation is usually a good thing. I appreciate a fresh set of eyes as sometimes
+something I believe to be obvious is actually confusing.
+
+Containers allow us to better utilize all of the computers. Rather than each computer being dedicated to one specific program/server,
+we can use containers to wrap our programs in an operating system using containers. This is a further layer of abstraction, but boosts our 
+reproducibility and should save both time and money.
